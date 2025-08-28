@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+#projects, #about, #contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* چیدمان پروژه‌ها با فلکس */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-item {
+    flex: 1 1 45%;
+    text-align: center;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.project-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* چیدمان تیم با فلکس */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member {
+    flex: 1 1 22%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+/* چیدمان فرم با فلکس */
+form {
+    display: flex;
+    flex-direction: column; /* باکس‌ها زیر هم */
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* پهنای کامل باکس */
+}
+
+form textarea {
+    height: 100px; /* ارتفاع متن مثل عکس */
+}
+
+form button {
+    padding: 10px;
+    background-color: #000; /* رنگ مشکی مثل عکس */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 150px; /* عرض دکمه مثل عکس */
+    align-self: center; /* مرکز قرارگیری دکمه */
+    margin-top: 10px; /* فاصله از باکس‌ها مثل عکس */
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+}
